@@ -1,0 +1,42 @@
+.transaction-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    margin: 8px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .transaction-status span {
+    font-weight: bold;
+  }
+  
+  .transaction-card.success {
+    border-left: 4px solid green;
+  }
+  
+  .transaction-card.pending {
+    border-left: 4px solid yellow;
+  }
+  
+  .transaction-card.failed {
+    border-left: 4px solid red;
+  }
+  
+  .transaction-details {
+    text-align: right;
+  }
+  
+  .transaction-date {
+    display: block;
+    font-size: 0.85em;
+    color: #666;
+  }
+  
+  .transaction-amount {
+    display: block;
+    font-size: 1.25em;
+    font-weight: bold;
+  }
