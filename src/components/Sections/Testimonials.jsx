@@ -30,7 +30,7 @@ export default function Blog() {
                 
                 text={
                   <p style={paragraphStyle}>
-                    "The depth of analysis provided by [Your Product Name] is unparalleled. From SSL/TLS assessments to blacklist monitoring, it covers all bases. It's an essential tool for anyone looking to enhance their domain's health and security."
+                    "The depth of analysis provided by Domain Health  is unparalleled. From SSL/TLS assessments to blacklist monitoring, it covers all bases. It's an essential tool for anyone looking to enhance their domain's health and security."
                   </p>
                 }
                 author={<span style={authorStyle}>Alex Johnson, CEO of WebSecure LLC</span>}
